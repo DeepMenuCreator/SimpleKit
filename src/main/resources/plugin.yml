@@ -1,0 +1,13 @@
+name: SimpleKits
+version: 1.0
+main: ru.example.SimpleKits
+api-version: '1.21'
+commands:
+  kit:
+    description: Получить кит
+  kitcreate:
+    description: Создать кит
+    permission: kits.admin
+  kitdel:
+    description: Удалить кит
+    permission: kits.admin
